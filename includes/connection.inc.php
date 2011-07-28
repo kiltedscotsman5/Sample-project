@@ -1,7 +1,7 @@
 <?php
 function dbConnect($usertype, $connectionType = 'mysqli') {
   $host = 'localhost';
-  $db = 'guestbook';
+  $db = 'testDB';
   if ($usertype  == 'read') {
 		$user = 'dbread';
 		$pwd = 'Password1';
